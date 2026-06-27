@@ -1,0 +1,60 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: IPC BCM
+VAL_TABLE_ Switch 1 "ON" 0 "OFF" ;
+
+
+BO_ 260 IPCMessage_L: 1 IPC
+ SG_ IPC_Signal_L : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 259 IPCMessage_R: 1 IPC
+ SG_ IPC_Signal_R : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 257 BCMMessage_R: 1 BCM
+ SG_ BCM_Signal_R : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 256 BCMMessage_L: 1 BCM
+ SG_ BCM_Signal_L : 0|1@1+ (1,0) [0|3] "" Vector__XXX
+
+
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "";
+VAL_ 260 IPC_Signal_L 1 "ON" 0 "OFF" ;
+VAL_ 259 IPC_Signal_R 1 "ON" 0 "OFF" ;
+VAL_ 257 BCM_Signal_R 1 "ON" 0 "OFF" ;
+VAL_ 256 BCM_Signal_L 1 "ON" 0 "OFF" ;
+

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=10.0.63.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=10.0.63.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="Indicator">
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.63.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl2" ControlName="Switch/Indicator 2">
+      <Property Name="Name">SwitchControl2</Property>
+      <Property Name="Size">48, 68</Property>
+      <Property Name="Location">32, 120</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SymbolConfiguration">5;16;Indicator;;;Sys_BCM_R;1;;;-1;;;</Property>
+      <Property Name="TabIndex">10</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.63.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl1" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl1</Property>
+      <Property Name="Size">46, 65</Property>
+      <Property Name="Location">32, 30</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="TransparentColor">Lavender</Property>
+      <Property Name="SymbolConfiguration">5;16;Indicator;;;Sys_BCM_L;1;;;-1;;;</Property>
+      <Property Name="TabIndex">9</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.LEDControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.63.0, Culture=neutral, PublicKeyToken=null" Name="LEDControl4" ControlName="LED Control">
+      <Property Name="Name">LEDControl4</Property>
+      <Property Name="Size">60, 65</Property>
+      <Property Name="Location">259, 120</Property>
+      <Property Name="UsedLEDColorOn">Yellow</Property>
+      <Property Name="UsedLEDColorOff">White</Property>
+      <Property Name="SymbolConfiguration">5;16;Indicator;;;Sys_IPC_L;1;;;-1;;;</Property>
+      <Property Name="TabIndex">8</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.LEDControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.63.0, Culture=neutral, PublicKeyToken=null" Name="LEDControl1" ControlName="LED Control">
+      <Property Name="Name">LEDControl1</Property>
+      <Property Name="Size">60, 65</Property>
+      <Property Name="Location">259, 30</Property>
+      <Property Name="UsedLEDColorOn">Yellow</Property>
+      <Property Name="UsedLEDColorOff">White</Property>
+      <Property Name="SymbolConfiguration">5;16;Indicator;;;Sys_IPC_L;1;;;-1;;;</Property>
+      <Property Name="TabIndex">7</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.LEDControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.63.0, Culture=neutral, PublicKeyToken=null" Name="LEDControl3" ControlName="LED Control">
+      <Property Name="Name">LEDControl3</Property>
+      <Property Name="Size">60, 65</Property>
+      <Property Name="Location">460, 120</Property>
+      <Property Name="UsedLEDColorOn">Yellow</Property>
+      <Property Name="UsedLEDColorOff">White</Property>
+      <Property Name="SymbolConfiguration">5;16;Indicator;;;Sys_IPC_R;1;;;-1;;;</Property>
+      <Property Name="TabIndex">6</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.LEDControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.63.0, Culture=neutral, PublicKeyToken=null" Name="LEDControl2" ControlName="LED Control">
+      <Property Name="Name">LEDControl2</Property>
+      <Property Name="Size">60, 65</Property>
+      <Property Name="Location">460, 30</Property>
+      <Property Name="UsedLEDColorOn">Yellow</Property>
+      <Property Name="UsedLEDColorOff">White</Property>
+      <Property Name="SymbolConfiguration">5;16;Indicator;;;Sys_IPC_R;1;;;-1;;;</Property>
+      <Property Name="TabIndex">5</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">580, 270</Property>
+    <Property Name="BackColor">White</Property>
+  </Object>
+</Panel>
